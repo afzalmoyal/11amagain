@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .container-fluid{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./media/logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 fs-5">
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">Contect</a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">Teams</a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                </ul>
+               
+                  
+                  <button class="btn btn-primary rounded-pill fs-4" type="submit">Get Started</button>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="carousel">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner" style="height: 400px;">
+                          <div class="carousel-item active">
+                            <img src="./media/IMG-20231129-WA0009.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" style="height: 400px;">
+                            <img src="./media/IMG-20231129-WA0009.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" style="height: 400px;">
+                            <img src="./media/IMG-20231129-WA0009.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 text-center ">
+                    <h2 class="text-primary fw-bold fs-1">Features</h2>
+                    <h2 class="text-dark fw-bold fs-1">Why Choose?</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, molestias?</p>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row ms-3 mt-3">
+                <div class="col-4 text-center">
+                    <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                        <div class="card-body">
+                          <h5 class="card-title fs-1 fw-bold"><i class="bi bi-stack"></i></h5>
+                          <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="card  pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                        <div class="card-body">
+                          <h5 class="card-title fs-1 fw-bold"><i class="bi bi-brush"></i></h5>
+                          <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                        <div class="card-body">
+                          <h5 class="card-title fs-1 fw-bold"><i class="bi bi-hand-index-thumb"></i></h5>
+                          <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid" style="height: 600px; background-color: rgb(210, 224, 224);">
+       <div class="row">
+        <div class="col-6 d-flex justify-content-center" >
+          <img src="./media/about-img (1) (1).png" alt="" style="width: 400px;display: block;margin-top: 100px;">
+        </div>
+        <div class="col-6">
+          <div id="upper" style="margin-top: 100px;">
+            <h2 class="text-primary fw-bold fs-1">About us</h2>
+            <h2 class="fw-bold text-dark fs-2">Built-with Bootstrap 5, a New Experiance</h2>
+            <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis a itaque ratione ipsum nobis aperiam commodi quod id temporibus Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div id="lower" class="text-center mt-5">
+            <div id="up">
+              <h3 class="text-primary fw-bold">30K</h3>
+              <h3 class="text-dark fw-bold">Happy Claint</h3>
+              <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit.</p>
+            </div>
+            <div id="down">
+             <h3 class="fw-bold text-primary">45K</h3>
+             <h3 class="fw-bold">Projects Done</h3>
+             <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    
+    <section id="service">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4 text-center ">
+                <h2 class="text-primary fw-bold fs-1">Sarvices</h2>
+                <h2 class="text-dark fw-bold fs-1">Our best Sarvices</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, molestias?</p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row ms-3 mt-3">
+            <div class="col-4 text-center">
+                <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bold"><i class="bi bi-stack"></i></h5>
+                      <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="card  pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bold"><i class="bi bi-brush"></i></h5>
+                      <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bold"><i class="bi bi-hand-index-thumb"></i></h5>
+                      <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row ms-3 mt-5">
+          <div class="col-4 text-center">
+              <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1 fw-bold"><i class="bi bi-stack"></i></h5>
+                    <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                  </div>
+                </div>
+          </div>
+          <div class="col-4 text-center">
+              <div class="card  pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1 fw-bold"><i class="bi bi-brush"></i></h5>
+                    <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                  </div>
+                </div>
+          </div>
+          <div class="col-4 text-center">
+              <div class="card pt-3 pb-5 shadow-lg" style="width: 25rem;">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1 fw-bold"><i class="bi bi-hand-index-thumb"></i></h5>
+                    <h6 class="card-subtitle mb-2 text-dark fs-2">Bootstrap 5</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="teams">
+      <div class="container-fluid mt-3 mb-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold fs-1 text-primary">Teams</h2>
+            <h2 class="fw-bold fs-1 text-dark">Meet Our Experts</h2>
+            <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, vitae? </p>
+          </div>
+        </div>
+        <div class="row ms-3 mt-5 ">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/team-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-bold text-center">Michael Smith</h5>
+                <p class="card-text fs-5 text-center">Product Designer</p>
+               <div class="d-flex ms-4">
+               <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
+               <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
+               <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
+               <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/team-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3 fw-bold">Michael Smith</h5>
+                <p class="card-text fs-5 ">Product Designer</p>
+               <div class="d-flex ms-4">
+                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/team-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3 fw-bold">Michael Smith</h5>
+                <p class="card-text fs-5 ">Product Designer</p>
+              <div class="d-flex ms-4">
+                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+               <img src="./media/team-4.jpg" alt="">
+               <div class="card-body text-center" >
+                <h5 class="card-title fs-3 fw-bold">Michael Smith</h5>
+                <p class="card-text fs-5">Product Designer</p>
+                <div class="d-flex ms-4">
+                  <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
+                  <a href=""><img src="./media/instagram-icon.png" alt=""  style="width: 50px;"></a>
+                  <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
+                  <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+     <div class="container-fluid mt-5" style="height: 400px;background-color: rgb(227, 243, 255);">
+     <div class="row">
+      <div class="col-3 p-5">
+       <div>
+        <img src="./media/logo.svg" alt="no logo" class="mb-3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae aut, dicta suscipit quibusdam hic possimus voluptatum perferendis sint quo sequi.</p>
+       </div>
+      </div>
+      <div class="col-3 py-5 lh-lg">
+        <h2 class="mb-3">Services</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+      <div class="col-3 py-5 lh-lg">
+        <h2 class="mb-3">Quick Links</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+      <div class="col-3 py-5 lh-lg">
+        <h2 class="mb-3">Contact</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+     </div>
+     <hr class="mx-5">
+     <div id="lastDiv" class="d-flex justify-content-between mx-5">
+      <div>
+        <a href=""><img src="./media/twitter-icon.png" style="width: 50px;" alt=""></a>
+        <a href=""><img src="./media/instagram-icon.png" style="width: 50px;" alt=""></a>
+        <a href=""><img src="./media/linkedin-icon.png" style="width: 50px;" alt=""></a>
+        <a href=""><img src="./media/snapchat-icon.png" style="width: 50px;" alt=""></a>
+      </div>
+      <p>Template bt Afzal</p>
+     </div>
+     </div>
+    </section>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
